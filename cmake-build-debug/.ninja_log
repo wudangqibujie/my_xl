@@ -1,0 +1,5 @@
+# ninja log v5
+12	1083	6942923226968984	CMakeFiles/my_xl.dir/main.cpp.obj	f18a1f1921a6e4a
+1086	1308	6942923229288194	my_xl.exe	44ca64fcd4cfbb07
+8	818	6942016299522336	CMakeFiles/my_xl.dir/base/timer.cc.obj	d84365a1b41161f7
+6	1086	6942923227125297	CMakeFiles/my_xl.dir/base/logging.cc.obj	eddd5b521a64f7e0
