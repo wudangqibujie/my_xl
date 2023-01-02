@@ -51,51 +51,147 @@ build cmake_object_order_depends_target_my_xl: phony || CMakeFiles/my_xl.dir
 
 build CMakeFiles/my_xl.dir/main.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/main.cpp || cmake_object_order_depends_target_my_xl
   DEP_FILE = CMakeFiles\my_xl.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
   OBJECT_DIR = CMakeFiles\my_xl.dir
   OBJECT_FILE_DIR = CMakeFiles\my_xl.dir
 
 build CMakeFiles/my_xl.dir/base/timer.cc.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/base/timer.cc || cmake_object_order_depends_target_my_xl
   DEP_FILE = CMakeFiles\my_xl.dir\base\timer.cc.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
   OBJECT_DIR = CMakeFiles\my_xl.dir
   OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\base
 
 build CMakeFiles/my_xl.dir/base/logging.cc.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/base/logging.cc || cmake_object_order_depends_target_my_xl
   DEP_FILE = CMakeFiles\my_xl.dir\base\logging.cc.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
   OBJECT_DIR = CMakeFiles\my_xl.dir
   OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\base
 
 build CMakeFiles/my_xl.dir/solver/solver.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/solver/solver.cpp || cmake_object_order_depends_target_my_xl
   DEP_FILE = CMakeFiles\my_xl.dir\solver\solver.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
   OBJECT_DIR = CMakeFiles\my_xl.dir
   OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\solver
 
 build CMakeFiles/my_xl.dir/base/stringprintf.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/base/stringprintf.cpp || cmake_object_order_depends_target_my_xl
   DEP_FILE = CMakeFiles\my_xl.dir\base\stringprintf.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
   OBJECT_DIR = CMakeFiles\my_xl.dir
   OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\base
 
 build CMakeFiles/my_xl.dir/solver/checker.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/solver/checker.cpp || cmake_object_order_depends_target_my_xl
   DEP_FILE = CMakeFiles\my_xl.dir\solver\checker.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
   OBJECT_DIR = CMakeFiles\my_xl.dir
   OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\solver
 
 build CMakeFiles/my_xl.dir/base/levenshtein_distance.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/base/levenshtein_distance.cpp || cmake_object_order_depends_target_my_xl
   DEP_FILE = CMakeFiles\my_xl.dir\base\levenshtein_distance.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
   OBJECT_DIR = CMakeFiles\my_xl.dir
   OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\base
 
 build CMakeFiles/my_xl.dir/data/model_parameters.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/data/model_parameters.cpp || cmake_object_order_depends_target_my_xl
   DEP_FILE = CMakeFiles\my_xl.dir\data\model_parameters.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
   OBJECT_DIR = CMakeFiles\my_xl.dir
   OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\data
+
+build CMakeFiles/my_xl.dir/reader/reader.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/reader/reader.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\reader\reader.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\reader
+
+build CMakeFiles/my_xl.dir/reader/parser.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/reader/parser.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\reader\parser.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\reader
+
+build CMakeFiles/my_xl.dir/base/split_string.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/base/split_string.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\base\split_string.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\base
+
+build CMakeFiles/my_xl.dir/reader/file_splitor.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/reader/file_splitor.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\reader\file_splitor.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\reader
+
+build CMakeFiles/my_xl.dir/reader/mman.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/reader/mman.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\reader\mman.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\reader
+
+build CMakeFiles/my_xl.dir/score/score_function.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/score/score_function.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\score\score_function.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\score
+
+build CMakeFiles/my_xl.dir/score/linear_score.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/score/linear_score.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\score\linear_score.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\score
+
+build CMakeFiles/my_xl.dir/score/fm_score.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/score/fm_score.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\score\fm_score.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\score
+
+build CMakeFiles/my_xl.dir/score/ffm_score.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/score/ffm_score.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\score\ffm_score.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\score
+
+build CMakeFiles/my_xl.dir/loss/loss.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/loss/loss.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\loss\loss.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\loss
+
+build CMakeFiles/my_xl.dir/loss/squared_loss.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/loss/squared_loss.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\loss\squared_loss.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\loss
+
+build CMakeFiles/my_xl.dir/loss/cross_entropy_loss.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/loss/cross_entropy_loss.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\loss\cross_entropy_loss.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\loss
+
+build CMakeFiles/my_xl.dir/loss/metric.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/loss/metric.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\loss\metric.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\loss
+
+build CMakeFiles/my_xl.dir/solver/trainer.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/solver/trainer.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\solver\trainer.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\solver
+
+build CMakeFiles/my_xl.dir/solver/inference.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/solver/inference.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\solver\inference.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\solver
+
+build CMakeFiles/my_xl.dir/base/utsname.cpp.obj: CXX_COMPILER__my_xl_Debug D$:/CPP_project/my_xl/base/utsname.cpp || cmake_object_order_depends_target_my_xl
+  DEP_FILE = CMakeFiles\my_xl.dir\base\utsname.cpp.obj.d
+  FLAGS = -g   -Wall -Wno-sign-compare -O3 -std=c++11 -march=native -Wno-strict-aliasing -Wno-comment -std=gnu++14
+  OBJECT_DIR = CMakeFiles\my_xl.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_xl.dir\base
 
 
 # =============================================================================
@@ -105,7 +201,7 @@ build CMakeFiles/my_xl.dir/data/model_parameters.cpp.obj: CXX_COMPILER__my_xl_De
 #############################################
 # Link the executable my_xl.exe
 
-build my_xl.exe: CXX_EXECUTABLE_LINKER__my_xl_Debug CMakeFiles/my_xl.dir/main.cpp.obj CMakeFiles/my_xl.dir/base/timer.cc.obj CMakeFiles/my_xl.dir/base/logging.cc.obj CMakeFiles/my_xl.dir/solver/solver.cpp.obj CMakeFiles/my_xl.dir/base/stringprintf.cpp.obj CMakeFiles/my_xl.dir/solver/checker.cpp.obj CMakeFiles/my_xl.dir/base/levenshtein_distance.cpp.obj CMakeFiles/my_xl.dir/data/model_parameters.cpp.obj
+build my_xl.exe: CXX_EXECUTABLE_LINKER__my_xl_Debug CMakeFiles/my_xl.dir/main.cpp.obj CMakeFiles/my_xl.dir/base/timer.cc.obj CMakeFiles/my_xl.dir/base/logging.cc.obj CMakeFiles/my_xl.dir/solver/solver.cpp.obj CMakeFiles/my_xl.dir/base/stringprintf.cpp.obj CMakeFiles/my_xl.dir/solver/checker.cpp.obj CMakeFiles/my_xl.dir/base/levenshtein_distance.cpp.obj CMakeFiles/my_xl.dir/data/model_parameters.cpp.obj CMakeFiles/my_xl.dir/reader/reader.cpp.obj CMakeFiles/my_xl.dir/reader/parser.cpp.obj CMakeFiles/my_xl.dir/base/split_string.cpp.obj CMakeFiles/my_xl.dir/reader/file_splitor.cpp.obj CMakeFiles/my_xl.dir/reader/mman.cpp.obj CMakeFiles/my_xl.dir/score/score_function.cpp.obj CMakeFiles/my_xl.dir/score/linear_score.cpp.obj CMakeFiles/my_xl.dir/score/fm_score.cpp.obj CMakeFiles/my_xl.dir/score/ffm_score.cpp.obj CMakeFiles/my_xl.dir/loss/loss.cpp.obj CMakeFiles/my_xl.dir/loss/squared_loss.cpp.obj CMakeFiles/my_xl.dir/loss/cross_entropy_loss.cpp.obj CMakeFiles/my_xl.dir/loss/metric.cpp.obj CMakeFiles/my_xl.dir/solver/trainer.cpp.obj CMakeFiles/my_xl.dir/solver/inference.cpp.obj CMakeFiles/my_xl.dir/base/utsname.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\my_xl.dir

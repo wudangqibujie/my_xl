@@ -1,5 +1,6 @@
 #include <iostream>
 #include "base/timer.h"
+#include "solver/solver.h"
 
 int main(int argc, char *argv[]) {
     std::cout << "Hello, World!" << std::endl;
@@ -12,7 +13,13 @@ int main(int argc, char *argv[]) {
     timer.tic();
 
     xLearn::Solver solver;
+    solver.SetTrain();
+    solver.Initialize(argc, argv);
+    solver.StartWork();
+    solver.Clear();
 
-
+    print_info(
+            StringPrintf("Total time cost: %.2f (sec)",
+                         timer.toc()), false);
     return 0;
 }

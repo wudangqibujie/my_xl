@@ -72,7 +72,7 @@ namespace xLearn {
                 score_func_.compare("ffm") == 0) {
                 // Aligned malloc for latent factor
 #ifdef _WIN32
-                param_v_ = _aligned_malloc(param_num_v_ * sizeof(real_t), kAlignByte);
+                param_v_ = (xLearn::real_t *)_aligned_malloc(param_num_v_ * sizeof(real_t), kAlignByte);
 #else
                 int ret = posix_memalign(
                 (void**)&param_v_,
@@ -288,7 +288,7 @@ namespace xLearn {
             if (param_best_v_ == nullptr &&
                 score_func_.compare("linear") != 0) {
 #ifdef _WIN32
-                param_best_v_ = _aligned_malloc(
+                param_best_v_ = (xLearn::real_t *)_aligned_malloc(
                         param_num_v_ * sizeof(real_t),
                         kAlignByte);
 #else

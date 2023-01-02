@@ -221,7 +221,7 @@ inline uint64_t HashFile(const std::string& filename, bool one_block=false) {
 
     uint64_t magic = 90359;
     for(long pos = 0; pos < end; ) {
-        long next_pos = std::min(pos + kChunkSize, end);
+        long next_pos = std::min((long)pos + (long)kChunkSize, (long)end);
         long size = next_pos - pos;
         std::vector<char> buffer(kChunkSize);
         f.read(buffer.data(), size);

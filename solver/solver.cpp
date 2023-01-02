@@ -4,7 +4,8 @@
 
 #include "solver.h"
 #include <string>
-
+#include "../base/system.h"
+#include "../base/timer.h"
 
 namespace xLearn {
 
